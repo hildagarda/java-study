@@ -1,6 +1,7 @@
 public class Book {
     private String title;
     private int page;
+    private String Author;
 
     public String getName() {
         return title;
@@ -16,6 +17,13 @@ public class Book {
 
     public void setPage(int page) {
         this.page = page;
+    }
+
+    public String getAuthor(){
+        return Author;
+    }
+    public void setAuthor (String Author) {
+        this.Author = Author;
     }
 
     public Book() {
