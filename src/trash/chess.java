@@ -11,13 +11,11 @@ public class chess {
             if (i % 2 != 0) {
 
                 System.out.print(" ");
-
             }
 
             for (int j = 0; j < 4; j++) {
 
                 System.out.print("* ");
-
             }
 
             System.out.println();
