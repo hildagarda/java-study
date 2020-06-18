@@ -1,14 +1,17 @@
-public class NewLesson1 {
+ class DataOnly {
+    int i;
+    double d;
+    boolean b;
+
+
     public static void main(String[] args) {
+        DataOnly data = new DataOnly();
 
-        int a = 1;
-        char b = '$';
+        data.i = 47;
+        data.d = 1.1;
+        data.b = false;
+        System.out.println(data.i);
 
-        System.out.println(a);
-        System.out.println(b);
-        System.out.println(a+" "+b);
-
-        System.out.println("Hello world");
     }
 
 }

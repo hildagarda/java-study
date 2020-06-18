@@ -21,14 +21,16 @@ public class AuthorTest {
         Book book = new Book();
         String title = "War and peace";
         int page = 1000;
-        String Author = "Lev Tolstoi";
 
 
-        book.setName(title);
+        book.setTitle(title);
         book.setPage(page);
-        book.setAuthor(Author);
+        book.setAuthor(author);
 
-        System.out.println(title+" "+page+" "+Author);
+        String x = book.getTitle();
+        String z = book.getAuthor().getGenre();
+
+        System.out.println(x+" "+z);
 
 
 

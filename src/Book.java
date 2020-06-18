@@ -1,13 +1,13 @@
 public class Book {
     private String title;
     private int page;
-    private String Author;
+    private Author author;
 
-    public String getName() {
+    public String getTitle() {
         return title;
     }
 
-    public void setName(String title) {
+    public void setTitle(String title) {
         this.title = title;
     }
 
@@ -19,11 +19,11 @@ public class Book {
         this.page = page;
     }
 
-    public String getAuthor(){
-        return Author;
+    public Author getAuthor(){
+        return author;
     }
-    public void setAuthor (String Author) {
-        this.Author = Author;
+    public void setAuthor (Author author) {
+        this.author = author;
     }
 
     public Book() {

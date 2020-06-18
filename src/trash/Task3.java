@@ -1,3 +1,4 @@
+package trash;
 
 import java.util.Scanner;
 public class Task3 {

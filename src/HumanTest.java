@@ -17,12 +17,6 @@ public class HumanTest {
        System.out.println(sb.toString()+" "+a);
 
 
-
-
-
-
-
-
-
     }
+
 }
