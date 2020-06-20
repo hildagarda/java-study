@@ -5,21 +5,21 @@ package trash;
 public class chess {
 
     public static void main(String[] args) {
-
-        for (int i = 0; i < 4; i++) {
-
-            if (i % 2 != 0) {
-
-                System.out.print(" ");
+        System.out.println("  _ "+"_ "+"_ "+"_ " +"_ "+"_ "+"_ "+"_ ");
+        for (int i = 1; i < 9; i++) {
+            {
+                 System.out.print(i);
             }
+            for (int j = 0; j < 8; j++) {
 
-            for (int j = 0; j < 4; j++) {
+                System.out.print("|_");
 
-                System.out.print("* ");
+                if (j ==7){
+                    System.out.print("|");
+                }
             }
-
             System.out.println();
-
         }
+        System.out.println("  a b c d e f g h");
     }
 }
